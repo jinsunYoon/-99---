@@ -52,11 +52,9 @@ function App() {
                 <Route path="/noti" exact component={Notification}/>
               </ConnectedRouter>
           </Grid>
-        <Permit>
           <Button up _onClick={() => {
             window.scrollTo({top:0, left:0, behavior:"smooth"});
           }}></Button>
-        </Permit>
       </Container>
     </React.Fragment>
   );
